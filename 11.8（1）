@@ -1,0 +1,119 @@
+print("***performance reward system***")
+score=int(input("input score?"))
+if score>=90:
+    print("reward is 1000")
+print("***system end***")
+''''''
+score=int(input("input score?"))
+0<=score<=100
+if score>=60:
+    print("passed")
+else:
+    print("failed")
+''''''
+num=int(input("input a number?"))
+if len(str(num))==2:
+    print("this is a two-digit number")
+else:
+    print("this is not a two-digit number")
+''''''
+num1=int(input("input first number?"))
+num2=int(input("input second number?"))
+if num1>num2:
+    print(int(num1))
+else:
+    print(int(num2))
+''''''
+num=int(input("input a number?"))
+if num==1:
+    print("the gender you entered is male")
+if num!=1:
+    print("the gender you entered is female")
+''''''
+num=int(input("input a number?"))
+if num%2==0:
+    print("this is an even number")
+else:
+    print("this is an odd number")
+''''''
+score=float(input("input score?"))
+if score<10.0:
+    print("reach the final")
+else:
+    print("failed")
+''''''
+account=int(input("input account number?"))
+password=int(input("input password?"))
+confirm_password=int(input("input confirm password?"))
+if password==confirm_password:
+    print("registration successful, your account number is",account,"your password is",password)
+else:
+    print("registration failed,the passwords do not match")
+''''''
+Chinese_score=int(input ("input Chinese score?"))
+Math_score=int(input("input Math score?"))
+if Chinese_score>=100 and Math_score>=80:
+    print("honors class")
+else:
+    print("normal class")
+''''''
+a=int(input("input PE score?"))
+b=int(input("input Art score?"))
+c=a+b 
+if c>=180:
+    print(c,"teacher's reward")
+else:
+    print(c,"no reward")
+''''''
+num=int(input("input a nmber?"))
+if len(str(num))==2: 
+   if num%2==0:
+    print("this is an even number")
+   else:
+    print("this is an odd number")
+else:
+    print("error")
+''''''
+num=int(input("input a number?"))
+a=num%10
+if num%2==0:
+    print("this is an even number,the last digit is",a)
+else:
+    print("this is an odd number, the last digit is",a)
+''''''
+num=int(input("input a number?"))
+if len(str(num))==3:
+    a=num//100
+    b=num%100//10
+    c=num%10
+    print(f"hundreds digit is {a},tens digit is {b},units digit is {c}")
+else:
+    print("error")
+''''''
+num=int(input("input a number?"))
+if num%5==0:
+    print("this number can be divided by 5")
+else:
+    print("this number cannot be devided by 5")
+''''''
+num=int(input("input a number?"))
+if num%3==0 and num%7==0:
+    print("this number can be divided by 3 and 7")
+else:
+    print("this number cannot be divided by 3 and 7")
+''''''
+a=float(input("input the price of the first item"))
+b=float(input("input the price of the second item"))
+c=float(input("input the price of the third item"))
+d=a+b+c
+e=0.85*d
+if a>50 or b>50 or c>50 or d>=100:
+    print("you can get a 0.15 discount,the total price is",e)
+else:
+    print("no discount,the total price is",d)
+''''''
+year=int(input("input a year?"))
+if year%4==0 and year%100!=0 or year%400==0:
+    print("this is a leap year")
+else:
+    print("this is not a leap year")
